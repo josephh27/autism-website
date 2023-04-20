@@ -275,8 +275,9 @@ button a{
 /* landing ********************************************/
 
 .home-landing{
-	padding-top: 120px;
+	/* padding-top: 120px; */
 	/* padding-left: 148px; */
+	padding: 120px 130px 0px 130px;
     margin: 0 0px;
     color: #1E4799;
     background-color: #FFF;
@@ -291,16 +292,17 @@ button a{
 	display: flex;
 	flex-direction: column;
 }
+
 .home-landing-text .H1{
 	color: #1E4799;
-	max-width: 541px;
+	max-width: 741px;
     width: 100%;
     margin-bottom: 6px;
 }
 
 .home-landing-text .H6{
 	color: #1E4799;
-	max-width: 541px;
+	max-width: 741px;
     width: 100%;
     margin-bottom: 26px;
     color: #0F0804;
@@ -315,6 +317,7 @@ button a{
 	color: #0F0804;
 	background-color: #B0E8DA;
 	transition: all 0.3s ease;
+	margin-right: auto;
 }
 
 .home-landing-button:hover{
@@ -336,7 +339,6 @@ button a{
 }
 .home-landing-pic{	
     width: 500px;
-    margin-left: auto;
     /* padding-right: 158px; */
 }
 
@@ -987,7 +989,6 @@ button a{
 
 	.home-landing-graphic{
 		flex-direction: column;
-		align-items: center;
 	}
 	/* .home-landing-pic{
 		padding-top: 300px;
@@ -1079,6 +1080,18 @@ button a{
 @media only screen and (max-width: 1090px) {
 	.autism-cards {
 		flex-direction: column;
+	}
+
+	.home-landing {
+		flex-direction: column;
+	}
+
+	.home-landing-graphic {
+		justify-content: center;
+	}
+
+	.home-landing .H1 {
+
 	}
 }
 
