@@ -632,8 +632,6 @@ button a{
 	padding-top: 100px;
 	padding-bottom: 160px;
 	background-color: #B0E8DA;
-	padding-left: 168px;
-	padding-right: 168px;
 }
 
 .home-questions{
@@ -641,10 +639,12 @@ button a{
 	align-items: center;
 	padding: 53px 69px;
 	justify-content: space-between !important;
-
 	border: 2px solid white;
 	border-radius: 50px;
 	background-color: white;
+	width: 80%;
+	margin: 0px auto;
+
 }
 
 .questions-left{
@@ -992,11 +992,12 @@ button a{
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 100%;
+		
 	}
 	.home-questions {
 		flex-direction: column;
-		width: 60%;
+		width: 50%;
+		min-width: 50%;
 		gap: 20px;
 	}
 
@@ -1159,6 +1160,10 @@ button a{
 		background-size: contain, auto 1000px;
 		background-position: top, 0% 220px;
 		background-repeat: no-repeat, no-repeat;
+	}
+
+	.home-questions {
+		min-width: 60%;
 	}
 }
 
@@ -1928,6 +1933,10 @@ button a{
 
 }
 
+.input-name {
+	margin-right: 20px;
+}
+
 .personal-section, .project-section{
 	gap: 12px;
 }
@@ -1974,8 +1983,7 @@ button a{
 }
 
 .side-contacts{
-	padding-right: 168px;
-	margin-left: auto;
+	margin-left: 50px;
 	color: #0F0804;
 	width: 230px;
 }
