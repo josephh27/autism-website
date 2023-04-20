@@ -937,310 +937,6 @@ button a{
 	.white-footer */
 /* } */
 
-@media only screen and (max-width:1395px) {
-	.home-works {
-		flex-direction: column;
-		gap: 50px;
-
-	}
-	/* .home-values-bg{
-		background-position: center center
-	} */
-
-	.real-home-values{
-		align-items: center;
-		background-image: url(../images/homepage/mint-bg.png), linear-gradient(to right, #B0E8DA, #B0E8DA);
-		background-size: contain, auto 1000px;
-		background-position: top, 0% 420px;
-		background-repeat: no-repeat, no-repeat;
-	}
-
-	.home-values{
-		align-items: center;
-		background-image: url(../images/about/gray-bg.png), linear-gradient(to right, #D7DBE1, #D7DBE1);
-		background-size: contain, auto 1000px;
-		background-position: top, 0% 420px;
-		background-repeat: no-repeat, no-repeat;
-	}
-
-	.real-home-values .links{
-		padding-left: 0px;
-	}
-
-	#card-goldilocks{
-		margin: 0;
-	}
-
-	#see-all{
-		width: 522px;
-		align-self: center;
-		padding-bottom: 50px;
-	}
-
-	.home-join {
-		padding: 92px 80px;
-		flex-wrap: wrap;
-	}
-
-	.server-tags-deets-1, .server-tags-deets-2 {
-		flex-wrap: wrap;
-	}
-
-	.home-values-card{
-		flex-direction: column;
-		gap: 50px;
-	}
-	.home-values .links{
-		width: 350px;
-		align-self: center;
-		padding-right: 0;
-	}
-	
-	.home-landing {
-		gap: 70px;
-	}
-
-	.home-questions-container {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		
-	}
-	.home-questions {
-		flex-direction: column;
-		width: 50%;
-		min-width: 50%;
-		gap: 20px;
-	}
-
-	.home-landing-graphic{
-		flex-direction: column;
-	}
-	/* .home-landing-pic{
-		padding-top: 300px;
-		padding-bottom: 120px;
-		padding-right: auto;
-	} */
-
-
-	.home-landing-button{
-		align-self: flex-start;
-	}
-	.footer-left .H5{
-		padding-top: 10px;
-		padding-bottom: 60px;
-	}
-
-	.links {
-		padding-left: 0;
-	}
-
-	.autism-body, .about-body{
-		padding-left: 88px;
-		padding-right: 88px;
-	}
-}
-
-@media only screen and (max-width:1230px) {
-	.home-stats-numbers{
-		flex-direction: column;
-		gap: 60px;
-	}
-	.home-values-bg{
-		background-position: center;
-	}
-
-
-	.home-landing {
-		gap: 30px;
-	}
-
-	.home-join {
-		flex-wrap: wrap;
-		padding: 92px 80px;
-	}
-
-	.autism-cards {
-		gap: 30px;
-	}
-
-	/* .brands-pics{
-		flex-direction: column;
-	} */
-	.all-brands-home{
-		display: flex;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.hyperlinks{
-		padding-left: 20px;
-	}
-	.footer-left .H5{
-		padding-top: 10px;
-		padding-bottom: 60px;
-	}
-	.navbar-click-all{
-		flex-direction: column !important;
-		padding-left: 0 !important;
-		padding-right: 0 !important;
-		align-items: center !important;
-	}
-	.navbar-left{
-		align-items: center !important;
-	}
-	.navbar-left-top{
-		align-items: center !important;
-	}
-	.navbar-left-bottom{
-		align-items: center !important;
-		display: flex;
-		flex-direction: column;
-	}
-	#navbar-hook{
-		display: none;
-	}
-	.navbar-right .online-images{
-		padding-top: 60px;
-	}
-
-	.server-tags-deets-2 :nth-child(1) {
-		order: 1
-	}
-
-	.cause-risk-pics{
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.autism-body, .about-body {
-		padding-left: 60px;
-		padding-right: 60px;
-	}
-	
-}
-
-@media only screen and (max-width: 1090px) {
-	.autism-cards {
-		flex-direction: column;
-	}
-
-	.home-landing {
-		flex-direction: column;
-	}
-
-	.home-landing-graphic {
-		justify-content: center;
-	}
-
-	.resources-header{
-		background-image: url(../images/resources/orange-half-circle-bg.png);
-		background-size: cover;
-		background-position: center;
-		width: 100%;
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		/* padding-top: 153px;
-		padding-bottom: 185px; */
-		padding: 153px 90px 185px 90px;
-	}
-
-	.autism-body, .about-body {
-		padding-left: 70px;
-		padding-right: 70px;
-	}
-}
-
-@media only screen and (min-width:320px) and (max-width: 1068px) {
-	.autism-body, .about-body {
-		padding-left: 40px;
-		padding-right: 40px;
-	}
-
-	.white-footer{
-		flex-direction: column;
-		padding-top: 80px;
-		padding-bottom: 100px;
-		align-items: center;
-		height: auto;
-	}
-	.left-text{
-		display: flex;
-		flex-direction: column;
-		justify-content: left;
-		padding-left: 50px;
-	}
-	.footer-left{
-		padding-bottom: 70px;
-		flex-direction: row;
-		align-items: flex-end;
-	}
-	
-	.brands-pics {
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.footer-right{
-		margin: 0;
-	}
-	.hyperlinks{
-		padding-left: 120px;
-		width: auto;
-	}
-	.footer-left .H5{
-		padding-bottom: 12px;
-		font-size: 30px;
-
-	}
-	.footer-online{
-		padding-top: 30px;
-	}
-
-	.terms{
-		padding-top: 85px;
-	}
-
-	.real-home-values{
-		background-size: contain, auto 1000px;
-		background-position: top, 0% 320px;
-		background-repeat: no-repeat, no-repeat;
-	}
-}
-
-@media only screen and (min-width:320px) and (max-width: 768px){
-	.real-home-values{
-		background-size: contain, auto 1000px;
-		background-position: top, 0% 220px;
-		background-repeat: no-repeat, no-repeat;
-	}
-
-	.home-questions {
-		min-width: 60%;
-	}
-
-	.home-landing {
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-
-	.home-landing-pic{	
-		width: 400px;
-		/* padding-right: 158px; */
-	}
-
-	.home-join {
-		padding: 92px 10px;
-	}
-
-	.cause-risk-pics img{
-		width: auto;
-		max-width: 440px;
-	}
-	
-}
-
 /* AUTISM ********************************************/
 .blue-header{
 	/* background-color: #1E4799;
@@ -1908,6 +1604,8 @@ button a{
 }
 
 
+
+
 .home-values .H4{
 	display: flex;
 	width: 350px;
@@ -2282,4 +1980,320 @@ button a{
 .questions-left{
 	display: flex;
 	gap: 7px;
+}
+
+@media only screen and (max-width:1395px) {
+	.home-works {
+		flex-direction: column;
+		gap: 50px;
+
+	}
+	/* .home-values-bg{
+		background-position: center center
+	} */
+
+	.real-home-values{
+		align-items: center;
+		background-image: url(../images/homepage/mint-bg.png), linear-gradient(to right, #B0E8DA, #B0E8DA);
+		background-size: contain, auto 1000px;
+		background-position: top, 0% 420px;
+		background-repeat: no-repeat, no-repeat;
+	}
+
+	.home-values{
+		align-items: center;
+		background-image: url(../images/about/gray-bg.png), linear-gradient(to right, #D7DBE1, #D7DBE1);
+		background-size: contain, auto 1200px;
+		background-position: top, 0% 450px;
+		background-repeat: no-repeat, no-repeat;
+	}
+
+
+	.real-home-values .links{
+		padding-left: 0px;
+	}
+
+	#card-goldilocks{
+		margin: 0;
+	}
+
+	#see-all{
+		width: 522px;
+		align-self: center;
+		padding-bottom: 50px;
+	}
+
+	.home-join {
+		padding: 92px 80px;
+		flex-wrap: wrap;
+	}
+
+	.server-tags-deets-1, .server-tags-deets-2 {
+		flex-wrap: wrap;
+	}
+
+	.home-values-card{
+		flex-direction: column;
+		gap: 50px;
+	}
+	.home-values .links{
+		width: 350px;
+		align-self: center;
+		padding-right: 0;
+	}
+	
+	.home-landing {
+		gap: 70px;
+	}
+
+	.home-questions-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	.home-questions {
+		flex-direction: column;
+		width: 50%;
+		min-width: 50%;
+		gap: 20px;
+	}
+
+	.home-landing-graphic{
+		flex-direction: column;
+	}
+	/* .home-landing-pic{
+		padding-top: 300px;
+		padding-bottom: 120px;
+		padding-right: auto;
+	} */
+
+
+	.home-landing-button{
+		align-self: flex-start;
+	}
+	.footer-left .H5{
+		padding-top: 10px;
+		padding-bottom: 60px;
+	}
+
+	.links {
+		padding-left: 0;
+	}
+
+	.autism-body, .about-body{
+		padding-left: 88px;
+		padding-right: 88px;
+	}
+}
+
+@media only screen and (max-width:1230px) {
+	.home-stats-numbers{
+		flex-direction: column;
+		gap: 60px;
+	}
+	.home-values-bg{
+		background-position: center;
+	}
+
+
+	.home-landing {
+		gap: 30px;
+	}
+
+	.home-join {
+		flex-wrap: wrap;
+		padding: 92px 80px;
+	}
+
+	.autism-cards {
+		gap: 30px;
+	}
+
+	/* .brands-pics{
+		flex-direction: column;
+	} */
+	.all-brands-home{
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.hyperlinks{
+		padding-left: 20px;
+	}
+	.footer-left .H5{
+		padding-top: 10px;
+		padding-bottom: 60px;
+	}
+	.navbar-click-all{
+		flex-direction: column !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		align-items: center !important;
+	}
+	.navbar-left{
+		align-items: center !important;
+	}
+	.navbar-left-top{
+		align-items: center !important;
+	}
+	.navbar-left-bottom{
+		align-items: center !important;
+		display: flex;
+		flex-direction: column;
+	}
+	#navbar-hook{
+		display: none;
+	}
+	.navbar-right .online-images{
+		padding-top: 60px;
+	}
+
+	.server-tags-deets-2 :nth-child(1) {
+		order: 1
+	}
+
+	.cause-risk-pics{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.autism-body, .about-body {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	
+}
+
+@media only screen and (max-width: 1090px) {
+	.autism-cards {
+		flex-direction: column;
+	}
+
+	.home-landing {
+		flex-direction: column;
+	}
+
+	.home-landing-graphic {
+		justify-content: center;
+	}
+
+	.resources-header{
+		background-image: url(../images/resources/orange-half-circle-bg.png);
+		background-size: cover;
+		background-position: center;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/* padding-top: 153px;
+		padding-bottom: 185px; */
+		padding: 153px 90px 185px 90px;
+	}
+
+	.autism-body, .about-body {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+}
+
+@media only screen and (min-width:320px) and (max-width: 1068px) {
+	.autism-body, .about-body {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.white-footer{
+		flex-direction: column;
+		padding-top: 80px;
+		padding-bottom: 100px;
+		align-items: center;
+		height: auto;
+	}
+	.left-text{
+		display: flex;
+		flex-direction: column;
+		justify-content: left;
+		padding-left: 50px;
+	}
+	.footer-left{
+		padding-bottom: 70px;
+		flex-direction: row;
+		align-items: flex-end;
+	}
+	
+	.brands-pics {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer-right{
+		margin: 0;
+	}
+	.hyperlinks{
+		padding-left: 120px;
+		width: auto;
+	}
+	.footer-left .H5{
+		padding-bottom: 12px;
+		font-size: 30px;
+
+	}
+	.footer-online{
+		padding-top: 30px;
+	}
+
+	.terms{
+		padding-top: 85px;
+	}
+
+	.real-home-values{
+		background-size: contain, auto 1000px;
+		background-position: top, 0% 320px;
+		background-repeat: no-repeat, no-repeat;
+	}
+	.home-values{
+		background-size: contain, auto 1000px;
+		background-position: top, 0% 320px;
+		background-repeat: no-repeat, no-repeat;
+	}
+}
+
+@media only screen and (min-width:320px) and (max-width: 768px){
+	.real-home-values{
+		background-size: contain, auto 1000px;
+		background-position: top, 0% 220px;
+		background-repeat: no-repeat, no-repeat;
+	}
+
+	.home-values{
+		background-size: contain, auto 1000px;
+		background-position: top, 0% 250px;
+		background-repeat: no-repeat, no-repeat;
+	}
+
+	.home-questions {
+		min-width: 60%;
+	}
+
+	.home-landing {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.home-landing-pic{	
+		width: 400px;
+		/* padding-right: 158px; */
+	}
+
+	.home-join {
+		padding: 92px 10px;
+	}
+
+	.cause-risk-pics img{
+		width: auto;
+		max-width: 440px;
+	}
+	
 }
