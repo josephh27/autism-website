@@ -1,0 +1,2112 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	transition: all 0.3s ease;
+}
+
+body {
+	max-width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: #0F0804;
+}
+
+.bigH1{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 119%;
+	/* or 76px */
+
+	letter-spacing: -0.01em;
+}
+
+.H1{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 58px;
+	line-height: 105.5%;
+}
+
+.H2{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 118%;
+}
+
+.H3{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 49px;
+	margin-right: 50px;
+}
+
+.H4{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 121.6%;
+}
+
+.H5{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 99.2%;
+}
+
+.H6{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 27px;
+}
+
+.bodytext{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 115.2%;
+}
+
+.smolbody{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.links{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 33px;
+	/* identical to box height */
+
+	text-decoration-line: underline;
+	color: #1E4799;
+	cursor: pointer;
+}
+
+.numbers{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 52px;
+	letter-spacing: -0.04em;
+}
+
+.lets-talk{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 60px;
+	line-height: 101.3%;
+}
+
+.about-smol-text{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 106.7%;
+}
+
+.resource-article-head-text{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+
+	/* dark grey */
+
+	color: #0F0804;
+}
+
+.resource-article-body-text{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 138.2%;
+	/* or 33px */
+
+	text-align: center;
+	color: #0F0804;
+}
+
+.special-purple-text{
+	color: #7B25BE;
+}
+
+button{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	padding: 15px 30px;
+	display: flex;
+	flex-direction: row;
+	border: 0;
+	border-radius: 12px;
+	gap: 10px;
+	align-items: center !important;
+	margin: 0;
+	width: fit-content;
+	justify-content: center;
+	transition: all 0.3s ease;
+}
+
+button img{
+	width: 24px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	transition: all 0.3s ease;
+}
+
+button a{
+	display: flex;
+	flex-direction: row;
+	align-items: center !important;
+	margin: 0;
+	gap: 10px;
+	width: fit-content;
+	justify-content: center;
+	transition: all 0.3s ease;
+}
+
+.body{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+}
+/* header ********************************************/
+
+.header{
+	max-width: 100%;
+	height: auto;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 80px;
+
+	border-bottom: 2px solid #D7DBE1;
+}
+
+.header-logo{
+	display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-logo img{
+	height: 60px;
+	margin-right: 15px;
+}
+
+.left-header{
+	display: flex;
+	align-items: center;
+	
+}
+
+.left-header span{
+	color: #7B25BE;
+}
+
+.left-header:hover{
+	background-image: none;
+	filter: opacity(70%);
+	cursor: pointer;
+}
+
+.right-header{
+	display: flex;
+	align-items: center;
+	gap: 22px;
+	color: #0F0804;
+}
+
+.dropdown-arrow-navbar{
+	display: flex;
+	gap: 5px;
+	align-items: center;
+}
+
+.dropdown-arrow-navbar img{
+	height: 7px;
+}
+
+.navbar-button{
+	border: 1px solid #0F0804;
+	background-color: white;
+	color: #0F0804;
+	
+}
+
+.navbar-button:hover{
+	background-color: #D7DBE1;
+	border: 1px solid #D7DBE1;
+}
+
+.header-menu{
+	height: 42px;
+	cursor: pointer;
+}
+
+/* landing ********************************************/
+
+.home-landing{
+	padding-top: 120px;
+	/* padding-left: 148px; */
+    margin: 0 0px;
+    color: #1E4799;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+	width: auto;
+	gap: 120px;
+	/* max-width: 1200px; */
+}
+
+.home-landing-text{
+	display: flex;
+	flex-direction: column;
+}
+.home-landing-text .H1{
+	color: #1E4799;
+	max-width: 541px;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.home-landing-text .H6{
+	color: #1E4799;
+	max-width: 541px;
+    width: 100%;
+    margin-bottom: 26px;
+    color: #0F0804;
+}
+
+.home-landing-text .special-text{
+	color: #F6921E;
+}
+
+.home-landing-button{
+	cursor: pointer;
+	color: #0F0804;
+	background-color: #B0E8DA;
+	transition: all 0.3s ease;
+}
+
+.home-landing-button:hover{
+	background-color: #88DFC9;
+	transition: all 0.3s ease;
+}
+
+.home-landing-button a{
+	color: #0F0804;
+	display: flex;
+	align-items: center;
+	transition: all 0.3s ease;
+}
+
+.home-landing-graphic{
+	display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.home-landing-pic{	
+    width: 500px;
+    margin-left: auto;
+    /* padding-right: 158px; */
+}
+
+/* autism ********************************************/
+
+.home-autism{
+	background-image: url(../images/homepage/orange-wave-bg.png);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	margin-top: 140px;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.autism-header{
+	padding-top: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.autism-header .H3{
+	font-weight: 500;
+}
+
+.autism-header .bodytext{
+	padding-top: 2px;
+	padding-bottom: 56px;
+	width: 431px;
+}
+
+.autism-cards{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 60px;
+	padding-bottom: 41px;
+}
+
+.card-header-text{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 119.1%;
+	/* or 24px */
+
+	text-align: center;
+
+	/* dark grey */
+
+	color: #0F0804;
+}
+
+.card-text-each{
+	padding-top: 268px;
+	width: 68%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: visible;
+  	overflow-wrap: anywhere;
+}
+
+.card-text-each .smolbody{
+	padding-top: 10px;
+	padding-bottom: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	align-self: center;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+}
+
+.cards-button-1{
+	background-color: #B0E8DA;
+	height: 50px;
+
+}
+
+.cards-button-1:hover{
+	background-color: #88DFC9;
+}
+
+.cards-button-1 .button{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 115.2%;
+}
+
+.cards-button-2{
+	background-color: #1E4799;
+	height: 50px;
+
+}
+
+.cards-button-2:hover{
+	background-color: #0C2C7E;
+}
+
+.cards-button-2 .button{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 115.2%;
+	color: white;
+}
+
+.cards-button-3{
+	background-color: #7B25BE;
+	height: 50px;
+
+}
+
+.cards-button-3:hover{
+	background-color: #6D0C9B;
+}
+
+.cards-button-3 .button{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 115.2%;
+	color: white;
+}
+
+.autism-card-1{
+	background-image: url(../images/homepage/card1.png);
+	background-size: cover;
+	width: 325.67px;
+	height: 480px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: all 0.5s ease;
+}
+
+.autism-card-1:hover{
+	filter: drop-shadow(0 0 0.4rem #F29E50);
+	transform: scale(1.06);
+}
+
+.autism-card-2{
+	background-image: url(../images/homepage/card2.png);
+	background-size: cover;
+	width: 325.67px;
+	height: 480px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: all 0.5s ease;
+}
+
+.autism-card-2:hover{
+	filter: drop-shadow(0 0 0.4rem #F29E50);
+	transform: scale(1.06);
+}
+
+.autism-card-3{
+	background-image: url(../images/homepage/card3.png);
+	background-size: cover;
+	width: 325.67px;
+	height: 480px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: all 0.5s ease;
+}
+
+.autism-card-3:hover{
+	filter: drop-shadow(0 0 0.4rem #F29E50);
+	transform: scale(1.06);
+}
+
+.learn-more-link{
+	align-self: start;
+	padding-bottom: 70px;
+}
+
+.learn-more-link .links a{
+	color: #1E4799;
+}
+
+.learn-more-link .links:hover{
+	filter: opacity(70%);
+}
+
+.learn-more-link .links{
+	width: 287px;
+}
+
+
+/* home contetnt ********************************************/
+
+.home-content{
+	padding-left: 168px;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+/* home about us values ********************************************/
+
+.real-home-values{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url(../images/homepage/mint-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 90px;
+	width: 100%;
+	height: 100%;
+
+	
+}
+
+.real-home-values .H4{
+	display: flex;
+	width: 350px;
+	height: 82px;
+	align-self: center;
+	text-align: center;
+	padding-top: 24px;
+	padding-bottom: 100px;
+	border-bottom: 2px solid white;
+	font-weight: 500;
+}
+
+.home-values-card{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-top: 63px;
+	padding-bottom: 43px;
+	padding-left: 168px;
+	padding-right: 168px;
+	justify-content: space-between;
+}
+
+.values-card{
+	display: flex;
+	flex-direction: column;
+	width: 360px;
+	flex-wrap: wrap;
+}
+
+.values-card img{
+	width: 60px;
+}
+
+.values-card .H5{
+	padding-top: 18px;
+}
+
+.values-card .bodytext{
+	padding-top: 4px;
+	text-align: justify;
+}
+
+.real-home-values .links a{
+	color: #1E4799;
+}
+
+.real-home-values .links a:hover{
+	filter: opacity(70%);
+}
+
+.real-home-values .links{
+	cursor: pointer;
+	padding-left: 168px;
+}
+
+/* home questions ********************************************/
+.home-questions-container{
+	padding-top: 100px;
+	padding-bottom: 160px;
+	background-color: #B0E8DA;
+	padding-left: 168px;
+	padding-right: 168px;
+}
+
+.home-questions{
+	display: flex;
+	align-items: center;
+	padding: 53px 69px;
+	justify-content: space-between !important;
+
+	border: 2px solid white;
+	border-radius: 50px;
+	background-color: white;
+}
+
+.questions-left{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 4px;
+}
+
+.questions-button{
+	background-color: #7B25BE;
+}
+
+.questions-button:hover{
+	background-color: #6D0C9B;
+}
+
+.questions-button .button{
+	color: white;
+}
+
+/* home discord ********************************************/
+.home-join-bg{
+	background-image: url(../images/homepage/dc-footer-bg.png);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.home-join{
+	color: white;
+	padding: 92px 168px;
+}
+
+.server-tags-deets-1{
+	display: flex;
+	gap: 14px;
+	padding-top: 10px;
+	padding-bottom: 14px;
+}
+
+.server-tags-deets-2{
+	display: flex;
+	gap: 14px;
+	padding-bottom: 76px;
+}
+
+.server-tags-deets-1 img, .server-tags-deets-2 img{
+	height: 39px;
+}
+
+.home-discord-button{
+	background-color: transparent;
+	border: 2px solid #FFFFFF;
+	border-radius: 12px;
+	transition: all 0.3s ease;
+}
+
+.home-discord-button .button{
+	color: white;
+	transition: all 0.3s ease;
+}
+
+.home-discord-button:hover{
+	background-color: #1E4799;
+	border: 2px solid #1E4799;
+}
+
+/* home orgs ********************************************/
+
+.home-brands{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+	margin-bottom: 110px;
+	overflow: hidden;
+}
+
+.home-brands .H6{
+	padding-bottom: 50px;
+}
+
+.brands-pics{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 40px;
+	padding-bottom: 20px;
+}
+
+.org-1, .org-2, .org-3{
+	transition: all 0.5s ease;
+}
+
+.org-1:hover{
+	transform: scale(1.1);
+	filter: opacity(70%);
+}
+
+.org-2:hover{
+	transform: scale(1.1);
+	filter: opacity(70%);
+}
+
+.org-3:hover{
+	transform: scale(1.1);
+	filter: opacity(70%);
+}
+
+.white-footer{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 500px;
+	padding-left: 80px;
+	padding-right: 80px;
+	border-top: 2px solid #D7DBE1;
+}
+
+.footer-left{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	height: 60%;
+}
+
+.footer-left img{
+	height: 120px;
+}
+
+.footer-left img:hover{
+	background-image: none;
+	filter: opacity(70%);
+	cursor: pointer;
+}
+
+.footer-left .H3{
+	color: #7B25BE;
+	padding-top: 14px;
+}
+
+.footer-left .H3:hover{
+	background-image: none;
+	filter: opacity(70%);
+	cursor: pointer;
+}
+
+.footer-left .H5{
+	padding-top: 3px;
+	color: #656B73;
+}
+
+.left-text{
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-right{
+	display: flex;
+	margin-left: auto;
+	height: 60%;
+}
+.contact-online{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 254.4px;
+}
+
+.footer-contact{
+	width: 254.4px;
+}
+
+.footer-contact ul{
+	padding-top: 18px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.footer-contact li{
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.footer-contact li img{
+	padding-right: 15px;
+}
+
+.footer-contact li .bodytext:last-of-type{
+	text-align: left;
+}
+
+.footer-contact li #special-text{
+	color: #7B25BE;
+}
+
+.footer-online{
+	display: flex;
+	flex-direction: column;
+	width: 212px;
+}
+
+.footer-online .H5{
+	padding-bottom: 18px;
+}
+
+.footer-online img{
+	width: 30.97px;
+}
+
+.online-images{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 12px;
+	cursor: pointer;
+}
+
+.online-images a:hover{
+	filter: opacity(50%);
+}
+
+.hyperlinks{
+	padding-left: 86px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.navbar-footer{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 14px;
+}
+
+.navbar-footer .bodytext{
+	font-weight: 600;
+}
+
+.navbar-footer a{
+	cursor: pointer;
+}
+
+.navbar-footer a:hover{
+	color: #7B25BE;
+	text-decoration: underline;
+	
+}
+
+.terms{
+	display: flex;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 5px;
+	color: #656B73;
+	
+}
+
+.terms{
+	cursor: pointer;
+}
+
+.terms:hover{
+	filter: brightness(0.4);
+}
+
+/* @media only screen and (max-width:1536px) { */
+	/* .header,
+	.home-landing,
+	.home-stats,
+	.home-brands,
+	.home-works-all,
+	.home-values-bg,
+	.home-values,
+	.white-footer */
+/* } */
+
+@media only screen and (max-width:1395px) {
+	.home-works {
+		flex-direction: column;
+		gap: 50px;
+
+	}
+	/* .home-values-bg{
+		background-position: center center
+	} */
+
+	.real-home-values{
+		align-items: center;
+		background-image: url(../images/homepage/mint-bg.png), linear-gradient(to right, #B0E8DA, #B0E8DA);
+		background-size: contain, auto 80%;
+		background-position: top, 0% 150%;
+		background-repeat: no-repeat, no-repeat;
+	}
+
+	.real-home-values .links{
+		padding-left: 0px;
+	}
+
+	#card-goldilocks{
+		margin: 0;
+	}
+
+	#see-all{
+		width: 522px;
+		align-self: center;
+		padding-bottom: 50px;
+	}
+
+	.home-join {
+		padding: 92px 80px;
+		flex-wrap: wrap;
+	}
+
+	.server-tags-deets-1, .server-tags-deets-2 {
+		flex-wrap: wrap;
+	}
+
+	.home-values-card{
+		flex-direction: column;
+		gap: 50px;
+	}
+	.home-values .links{
+		width: 350px;
+		align-self: center;
+		padding-right: 0;
+	}
+	
+	.home-landing {
+		gap: 70px;
+	}
+
+	.home-landing-graphic{
+		flex-direction: column;
+		align-items: center;
+	}
+	/* .home-landing-pic{
+		padding-top: 300px;
+		padding-bottom: 120px;
+		padding-right: auto;
+	} */
+	.home-landing-button{
+		align-self: flex-start;
+	}
+	.footer-left .H5{
+		padding-top: 10px;
+		padding-bottom: 60px;
+	}
+
+	.links {
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width:1230px) {
+	.home-stats-numbers{
+		flex-direction: column;
+		gap: 60px;
+	}
+	.home-values-bg{
+		background-position: center;
+	}
+
+
+	.home-landing {
+		gap: 30px;
+	}
+
+	.home-join {
+		flex-wrap: wrap;
+		padding: 92px 80px;
+	}
+
+	.autism-cards {
+		gap: 30px;
+	}
+
+	/* .brands-pics{
+		flex-direction: column;
+	} */
+	.all-brands-home{
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.hyperlinks{
+		padding-left: 20px;
+	}
+	.footer-left .H5{
+		padding-top: 10px;
+		padding-bottom: 60px;
+	}
+	.navbar-click-all{
+		flex-direction: column !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		align-items: center !important;
+	}
+	.navbar-left{
+		align-items: center !important;
+	}
+	.navbar-left-top{
+		align-items: center !important;
+	}
+	.navbar-left-bottom{
+		align-items: center !important;
+		display: flex;
+		flex-direction: column;
+	}
+	#navbar-hook{
+		display: none;
+	}
+	.navbar-right .online-images{
+		padding-top: 60px;
+	}
+
+	.server-tags-deets-2 :nth-child(1) {
+		order: 1
+	}
+
+	
+}
+
+@media only screen and (max-width: 1090px) {
+	.autism-cards {
+		flex-direction: column;
+	}
+}
+
+@media only screen and (min-width:320px) and (max-width: 1068px) {
+	.white-footer{
+		flex-direction: column;
+		padding-top: 80px;
+		padding-bottom: 100px;
+		align-items: center;
+		height: auto;
+	}
+	.left-text{
+		display: flex;
+		flex-direction: column;
+		justify-content: left;
+		padding-left: 50px;
+	}
+	.footer-left{
+		padding-bottom: 70px;
+		flex-direction: row;
+		align-items: flex-end;
+	}
+	
+	.footer-right{
+		margin: 0;
+	}
+	.hyperlinks{
+		padding-left: 120px;
+		width: auto;
+	}
+	.footer-left .H5{
+		padding-bottom: 12px;
+		font-size: 30px;
+
+	}
+	.footer-online{
+		padding-top: 30px;
+	}
+
+	.terms{
+		padding-top: 85px;
+	}
+}
+
+/* AUTISM ********************************************/
+.blue-header{
+	background-color: #1E4799;
+	max-width: 100%;
+	height: 92px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 80px;
+	padding-right: 80px;
+	border-bottom: 2px solid #D7DBE1;
+}
+
+.blue-header .left-header .H3{
+	color: white;
+}
+
+.blue-header .right-header button{
+	background-color: #1E4799;
+	border: 1px solid white;
+}
+
+.blue-header .right-header button:hover{
+
+	background-color: #0C2C7E;
+	border: 1px solid #0C2C7E;
+}
+
+.blue-header .right-header a{
+	color: white;
+}
+
+.blue-header .right-header img{
+	filter: invert(100%);
+}
+
+.autism-text-of-wave-bg{
+	background-image: url(../images/autism/blue-wave-bg.png);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	padding-top: 130px;
+}
+
+.autism-upper-header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.autism-upper-header .autism-subtext{
+	padding-top: 12px;
+	padding-bottom: 46px;
+	width: 70%;
+}
+
+.autism-upper-header img{
+	padding-bottom: 300px;
+	width: 50px;
+}
+
+.autism-subtext{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 113.2%;
+	/* or 27px */
+
+	text-align: center;
+}
+
+.autism-video{
+	position: absolute;
+	top: 540px;
+	align-self: center;
+}
+
+.autism-video img{
+	width: 760px;
+}
+
+.autism-body{
+	display: flex;
+	flex-direction: column;
+	padding-left: 168px;
+	padding-right: 168px;
+	gap: 60px;
+	padding-top: 270px;
+}
+
+.asd-infogs:hover{
+	transform: scale(1.02);
+}
+
+.cause-risk-pics img:hover{
+	transform: scale(1.02);
+}
+
+.autism-body-smoltext{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 143.1%;
+	/* or 31px */
+}
+
+.type-lvl-asd img, .diag-autism img{
+	width: 100%;
+}
+
+.type-lvl-asd, .cause-risk-asd, .diag-signs-autism, .diag-autism{
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.signs-autism{
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 19px;
+}
+
+.signs-autism-cards{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 160px;
+}
+
+.signs-autism-cards img{
+	width: 370px;
+}
+
+
+.cause-risk-pics{
+	display: flex;
+	justify-content: space-between;
+}
+
+.cause-risk-pics img{
+	width: 570px;
+}
+
+
+/* RESOURCES ********************************************/
+.orange-header{
+	background-color: #FFC482;
+	max-width: 100%;
+	height: 92px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 80px;
+	padding-right: 80px;
+	border-bottom: 2px solid #656B73;
+}
+
+.orange-header .left-header .H3{
+	color: #0F0804;
+}
+
+.orange-header .right-header button{
+	background-color: #FFC482;
+}
+
+.orange-header .right-header button:hover{
+	background-color: white;
+	border: 1px solid white;
+}
+
+.resources-header{
+	background-image: url(../images/resources/orange-half-circle-bg.png);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 153px;
+	padding-bottom: 185px;
+}
+
+.upper-header{
+	padding-bottom: 21px;
+}
+
+.lower-header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 1000px;
+	gap: 50px;
+
+}
+
+.special-resource-article-text{
+	font-weight: 800;
+}
+
+.lower-header img{
+	width: 50px;
+}
+
+/* RESOURCES PODCAST ********************************************/
+
+.resources-podcast{
+	
+	padding-top: 130px;
+	padding-bottom: 130px;
+}
+
+.resources-podcast .H2{
+	padding-left: 168px;
+}
+
+.podcast-thumbnails{
+	padding-left: 168px;
+	padding-right: 168px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 44px;
+	padding-top: 50px;
+	width: 1104px;
+}
+
+.podcast-thumbnails img{
+	width: 1104px;
+	height: 470px;
+}
+
+.black-footer{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 500px;
+	padding-left: 80px;
+	padding-right: 80px;
+	background-color: #0F0804;
+	color: white;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+}
+
+.black-footer .footer-left .left-text .H3{
+	color: #B0E8DA;
+}
+
+.black-footer .footer-left .left-text .H5{
+	color: white;
+}
+
+.black-footer .footer-right #special-text{
+	color: #B0E8DA;
+}
+
+.black-footer .footer-online img{
+	filter: invert(100%);
+}
+
+.black-footer .footer-contact img{
+	filter: invert(100%);
+}
+
+.black-footer .footer-right .hyperlinks .navbar-footer a{
+	color: white;
+}
+
+.black-footer .footer-right .hyperlinks .navbar-footer a:hover{
+	color: #B0E8DA;
+}
+
+.black-footer .footer-right .hyperlinks .terms{
+	color: #D7DBE1;
+}
+
+/* aRTICLES LEARNING ********************************************/
+
+.mint-header{
+	background-color: #B0E8DA;
+	max-width: 100%;
+	height: 92px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 80px;
+	padding-right: 80px;
+	border-bottom: 2px solid #656B73;
+}
+
+.mint-header .left-header .H3{
+	color: #0F0804;
+}
+
+.mint-header .right-header button{
+	background-color: #B0E8DA;
+}
+
+.mint-header .right-header button:hover{
+
+	background-color: white;
+	border: 1px solid white;
+}
+
+.articles-header{
+	background-image: url(../images/articles/mint-half-circle-bg.png);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 200px;
+	padding-bottom: 185px;
+}
+
+.upper-header{
+	padding-bottom: 21px;
+}
+
+.lower-header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 1000px;
+	gap: 50px;
+
+}
+
+/* aRTICLES learning ********************************************/
+
+.articles-learning{
+	
+	padding-top: 130px;
+	padding-bottom: 130px;
+}
+
+.articles-learning .H2{
+	padding-left: 168px;
+}
+
+.all-articles{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 80px;
+}
+
+.articles-each{
+	padding-left: 168px;
+	padding-right: 168px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-top: 43px;
+}
+
+.articles-each img{
+	width: 100%;
+	height: 100%;
+}
+
+.articles-each .H1{
+	font-weight: 700;
+	padding-top: 10px;
+}
+
+.articles-each .H5{
+	color: #7B25BE;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.articles-each .H6{
+	line-height: 150%;
+}
+
+.share-article{
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	padding-top: 40px;
+
+}
+
+.share-article .H4{
+	padding-bottom: 15px;
+	color: #1E4799;
+}
+
+.share-article img{
+	width: 44px;
+}
+
+.share-article .online-images{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 10px;
+	cursor: pointer;
+}
+
+.online-images a:hover{
+	filter: opacity(50%);
+}
+
+/* aRTICLES stories ********************************************/
+
+.articles-stories{
+	
+	padding-top: 130px;
+	padding-bottom: 130px;
+}
+
+.articles-stories .H2{
+	padding-left: 168px;
+}
+
+/* ABOUT ********************************************/
+.black-header{
+	background-color: #0F0804;
+	max-width: 100%;
+	height: 92px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 80px;
+	padding-right: 80px;
+	border-bottom: 2px solid #656B73;
+}
+
+.black-header .left-header .H3{
+	color: #B0E8DA;
+}
+
+.black-header .right-header button{
+	background-color: #0F0804;
+	border: 1px solid white;
+}
+
+.black-header .right-header button:hover{
+
+	background-color: #656B73;
+	border: 1px solid #656B73;
+}
+
+.black-header .right-header a{
+	color: white;
+}
+
+.black-header .right-header img{
+	filter: invert(100%);
+}
+
+.about-header{
+	display: flex;
+	flex-direction: column;
+	background-color: #0F0804;
+	color: white;
+	padding-left: 168px;
+	padding-right: 168px;
+	padding-top: 170px;
+	padding-bottom: 150px;
+	gap: 20px;
+}
+
+.about-header .H2{
+	font-weight: 300;
+}
+
+.about-header-special-text{
+	font-weight: 700;
+	color: #FFC482;
+}
+
+.about-header .H6{
+	width: 50%;
+}
+
+.about-body{
+	padding-left: 168px;
+	padding-right: 168px;
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+	background-color: #D7DBE1;
+	color: #0F0804;
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.about-body .H2{
+	font-weight: 700;
+}
+
+.about-mission, .about-vision, .about-team{
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.about-vision img{
+	width: 100%;
+}
+
+.team-pics-deets{
+	display: flex;
+	justify-content: space-between;
+}
+
+.team-pics-deets-each{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.team-pics-deets-each img{
+	width: 100%
+
+}
+
+.team-deets{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2px;
+	width: 226px;
+}
+
+.about-join{
+	margin: 0;
+	padding: 0;
+	background-color: #0F0804;
+}
+
+.about-join img{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.team-name{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 118.7%;
+	/* identical to box height, or 36px */
+
+	text-align: center;
+
+	/* purple */
+
+	color: #7B25BE;
+}
+
+.team-subtext{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 117.7%;
+	/* or 19px */
+
+	text-align: center;
+
+	color: #494D53;
+}
+
+.special-blue-text{
+	color: #1E4799;
+}
+
+.mission-title{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 125.2%;
+}
+
+.mission-deets{
+	display: flex;
+	justify-content: space-between;
+}
+
+.mission-deet-each{
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+}
+
+.mission-deet-each img{
+	width: 74px;
+	height: 74px;
+}
+
+.mission-text{
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	width: 78%;
+}
+
+.home-values{
+	display: flex;
+	flex-direction: column;
+	background-color: #0F0804;
+	justify-content: space-between;
+	background-image: url(../images/about/gray-bg.png);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	top: 500px
+}
+
+.home-values .H4{
+	display: flex;
+	width: 350px;
+	height: 82px;
+	align-self: center;
+	text-align: center;
+	padding-top: 94px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid white;
+	font-weight: 500;
+}
+
+.home-values .links{
+	cursor: pointer;
+	padding-bottom: 93px;
+	padding-left: 168px;
+}
+
+.home-values .links a{
+	color: #1E4799;
+}
+
+.home-values .links a:hover{
+	filter: opacity(70%);
+}
+
+
+/* CONTACT ********************************************/
+.purple-header{
+	background-color: #7B25BE;
+	max-width: 100%;
+	height: 92px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 80px;
+	padding-right: 80px;
+	border-bottom: 2px solid #D7DBE1;
+}
+
+.purple-header .left-header .H3{
+	color: white;
+}
+
+.purple-header .right-header button{
+	background-color: #7B25BE;
+	border: 1px solid white;
+}
+
+.purple-header .right-header button:hover{
+
+	background-color: #6D0C9B;
+	border: 1px solid #6D0C9B;
+}
+
+.purple-header .right-header a{
+	color: white;
+}
+
+.purple-header .right-header img{
+	filter: invert(100%);
+}
+
+.contact-header{
+	max-width: 100%;
+	height: 92px;
+	background-color: #7B25BE;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 70px;
+	padding-right: 70px;
+	border-bottom: 2px solid white;
+}
+
+.contact-heading{
+	padding-left: 168px;
+	padding-top: 140px;
+	padding-bottom: 140px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	background-color: #7B25BE;
+}
+
+.contact-heading .H2{
+	color: #B0E8DA;
+}
+
+.contact-smol-text{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 110%;
+	width: 539px;
+	color: white;
+}
+
+
+.contact-form-bg{
+	background-image: url(../images/contact/white-wave-bg.png);
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 350px;
+}
+
+.contact-form{
+	padding-left: 168px;
+	color: #0F0804;
+	width: 820px;
+	gap: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-form div{
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-form input{
+	height: 62px;
+	background-color: #D7DBE1;
+	border-radius: 12px;
+	margin-top: 2px;
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 100.7%;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #0F0804;
+	border: 0;
+
+}
+
+.personal-section, .project-section{
+	gap: 12px;
+}
+
+.personal-section .H4, .project-section .H4{
+	padding-bottom: 16px;
+}
+
+.first-last-name{
+	display: flex;
+	flex-direction: row !important;
+	justify-content: space-between;
+}
+
+.first-name, .last-name{
+	width: 390px;
+}
+
+.form-bg{
+	background-color: white;
+	display: flex;
+	background-size: cover;
+}
+
+.form-submit-button{
+	margin-top: 56px;
+	cursor: pointer;
+	color: #0F0804;
+	background-color: #B0E8DA;
+	display: flex;
+	justify-content: space-between;
+	width: 256px;
+	margin-bottom: 130px;
+}
+
+.form-submit-button:hover{
+	background-color: #88DFC9;
+}
+
+.contact-all{
+	display: flex;
+	flex-direction: row;
+	padding-top: 220px;
+}
+
+.side-contacts{
+	padding-right: 168px;
+	margin-left: auto;
+	color: #0F0804;
+	width: 230px;
+}
+
+.side-contacts .bodytext{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+/* INVOLVED ********************************************/
+
+.mint-header{
+	background-color: #B0E8DA;
+	max-width: 100%;
+	height: 92px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 80px;
+	padding-right: 80px;
+	border-bottom: 2px solid #656B73;
+}
+
+.mint-header .left-header .H3{
+	color: #0F0804;
+}
+
+.mint-header .right-header button{
+	background-color: #B0E8DA;
+}
+
+.mint-header .right-header button:hover{
+
+	background-color: white;
+	border: 1px solid white;
+}
+
+.involved-text-of-wave-bg{
+	background-image: url(../images/involved/mint-wave-bg.png);
+	background-size: cover;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	color: #0F0804;
+	padding-top: 130px;
+
+}
+
+.involved-header{
+	padding-left: 168px;
+	padding-right: 168px;
+	display: flex;
+	flex-direction: column;
+	width: 44%;
+	justify-content: flex-start;
+	gap: 8px;
+	padding-top: 20px;
+	padding-bottom: 200px;
+}
+
+.involved-body{
+	padding-left: 168px;
+	padding-right: 168px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 136px;
+	gap: 136px;
+	padding-top: 136px;
+}
+
+.involved-discord{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 34px 0px 0px;
+	gap: 60px;
+
+	border: 2px solid #656B73;
+	border-radius: 50px;
+	color: #0F0804;
+}
+
+.discord-graphic img{
+	vertical-align: middle;
+}
+
+.server-name{
+	display: flex;
+	flex-direction: column;
+	width: 58%;
+}
+
+.server-heading{
+	display: flex;
+	gap: 22px;
+	padding-bottom: 10px;
+}
+
+.server-name-text{
+	display: flex;
+	flex-direction: column;
+}
+
+.server-details{
+	padding-bottom: 39px;
+}
+
+.neuropals-text{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 118%;
+}
+
+.by-autism-sense-text{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 118%;
+}
+
+.involved-discord-button{
+	border: 2px solid #0F0804;
+	border-radius: 12px;
+	background-color: white;
+}
+
+.involved-discord-button:hover{
+	border: 2px solid #B0E8DA;
+	background-color: #B0E8DA;
+}
+
+.involved-brands{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.involved-brands .smolbody{
+	font-weight: 700;
+	color: #1E4799;
+	padding-top: 8px;
+	padding-bottom: 60px;
+	width: 55%;
+	text-align: center;
+	line-height: 118%;
+}
+
+.involved-questions-container{
+	width: 100%;
+}
+
+.involved-questions{
+	display: flex;
+	align-items: center;
+	padding: 53px 69px;
+	justify-content: space-between !important;
+
+	border: 2px solid #0F0804;
+	border-radius: 50px;
+}
+
+.questions-left{
+	display: flex;
+	gap: 7px;
+}
