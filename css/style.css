@@ -945,8 +945,8 @@ button a{
 	.real-home-values{
 		align-items: center;
 		background-image: url(../images/homepage/mint-bg.png), linear-gradient(to right, #B0E8DA, #B0E8DA);
-		background-size: contain, auto 80%;
-		background-position: top, 0% 150%;
+		background-size: contain, auto 1000px;
+		background-position: top, 0% 420px;
 		background-repeat: no-repeat, no-repeat;
 	}
 
@@ -1133,6 +1133,12 @@ button a{
 
 	.terms{
 		padding-top: 85px;
+	}
+
+	.real-home-values{
+		background-size: contain, auto 1000px;
+		background-position: top, 0% 320px;
+		background-repeat: no-repeat, no-repeat;
 	}
 }
 
