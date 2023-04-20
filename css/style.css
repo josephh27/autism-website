@@ -354,6 +354,7 @@ button a{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	overflow: hidden;
 }
 
 .autism-header{
@@ -987,6 +988,18 @@ button a{
 		gap: 70px;
 	}
 
+	.home-questions-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	.home-questions {
+		flex-direction: column;
+		width: 60%;
+		gap: 20px;
+	}
+
 	.home-landing-graphic{
 		flex-direction: column;
 	}
@@ -995,6 +1008,8 @@ button a{
 		padding-bottom: 120px;
 		padding-right: auto;
 	} */
+
+
 	.home-landing-button{
 		align-self: flex-start;
 	}
@@ -1090,9 +1105,6 @@ button a{
 		justify-content: center;
 	}
 
-	.home-landing .H1 {
-
-	}
 }
 
 @media only screen and (min-width:320px) and (max-width: 1068px) {
@@ -1138,6 +1150,14 @@ button a{
 	.real-home-values{
 		background-size: contain, auto 1000px;
 		background-position: top, 0% 320px;
+		background-repeat: no-repeat, no-repeat;
+	}
+}
+
+@media only screen and (min-width:320px) and (max-width: 768px){
+	.real-home-values{
+		background-size: contain, auto 1000px;
+		background-position: top, 0% 220px;
 		background-repeat: no-repeat, no-repeat;
 	}
 }
