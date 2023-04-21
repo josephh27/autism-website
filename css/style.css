@@ -1042,10 +1042,13 @@ button a{
 	align-items: center;
 	gap: 60px;
 	padding-top: 270px;
+	max-width: 1400px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-.asd-infogs {
-	width: 100%;
+.cause-risk-pics .asd-infogs {
+	width: 540px;
 }
 
 .asd-infogs img {
@@ -1149,7 +1152,7 @@ button a{
 .resources-header{
 	background-image: url(../images/resources/orange-half-circle-bg.png);
 	background-size: cover;
-	background-position: center;
+	background-position: 50% 100%;
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -1469,11 +1472,30 @@ button a{
 	display: flex;
 	flex-direction: column;
 	gap: 60px;
-	background-color: #D7DBE1;
+	/* background-color: #0F0804; */
 	color: #0F0804;
 	padding-top: 80px;
 	padding-bottom: 100px;
 }
+
+.outer-wrapper {
+	background-color: #0F0804;
+	margin-top: -1px;
+	padding: 0;
+}
+
+.wrapper {
+	background-image: url(../images/about/gray-bg.png), linear-gradient(bottom, #D7DBE1, #D7DBE1 85%, transparent 85%, transparent 100%);
+	background-image: url(../images/about/gray-bg.png), -webkit-linear-gradient(bottom, #D7DBE1, #D7DBE1 70%, transparent 70%, transparent 100%);
+	background-size: contain, 100% 100%;
+	background-position: top, 50% 100%;
+	background-repeat: no-repeat, no-repeat;
+
+	/* background-image: url(../images/about/gray-bg.png);
+	background-size: contain; */
+}
+
+
 
 .about-body .H2{
 	font-weight: 700;
@@ -1601,9 +1623,9 @@ button a{
 .home-values{
 	display: flex;
 	flex-direction: column;
-	background-color: #0F0804;
+	/* background-color: #0F0804; */
 	justify-content: space-between;
-	background-image: url(../images/about/gray-bg.png);
+	/* background-image: url(../images/about/gray-bg.png); */
 	background-size: cover;
 	width: 100%;
 	height: 100%;
@@ -1989,6 +2011,63 @@ button a{
 	gap: 7px;
 }
 
+.right-header > div, .right-header > span {
+	padding: 0px 20px;
+}
+
+/* .right-header .dropdown-arrow-navbar {
+	display: inline-block;
+	position: relative;
+}
+
+.right-header .dropdown-arrow-navbar .dropdown{
+	list-style: none;
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	padding-left: 0;
+	left: 0;
+	display: none;
+	background: #7B25BE;
+}
+
+.right-header .dropdown-arrow-navbar:hover > .dropdown,
+.right-header .dropdown-arrow-navbar .dropdown:hover {
+      visibility: visible;
+      opacity: 1;
+      display: block;
+      min-width: 200px;
+      text-align: left;
+      padding-top: 20px;
+      box-shadow: 0px 2px 3px -1px #ccc;
+
+    }
+
+.right-header .dropdown-arrow-navbar .dropdown li {
+	clear: both;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 20px;
+	border-style: none;
+	}	
+
+.right-header .dropdown-arrow-navbar .dropdown li a:hover{
+	clear: both;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 20px;
+	border-style: none;
+}
+
+.right-header .dropdown-arrow-navbar .dropdown li a {
+	color: #FFFFFF;
+	font-family: 'Manrope';
+	transition: all 0.5s ease;
+	padding-left: 20px;
+} */
+
+
+
 @media only screen and (max-width:1395px) {
 	.home-works {
 		flex-direction: column;
@@ -1998,6 +2077,15 @@ button a{
 	/* .home-values-bg{
 		background-position: center center
 	} */
+	.wrapper {
+		background-image: url(../images/about/gray-bg.png), linear-gradient(bottom, #D7DBE1, #D7DBE1 85%, transparent 85%, transparent 100%);
+		background-image: url(../images/about/gray-bg.png), -webkit-linear-gradient(bottom, #D7DBE1, #D7DBE1 80%, transparent 80%, transparent 100%);
+		background-size: contain, 100%;
+		background-position: top, top;
+		background-repeat: no-repeat, no-repeat;
+	}
+
+	
 
 	.real-home-values{
 		align-items: center;
@@ -2006,15 +2094,6 @@ button a{
 		background-position: top, 0% 420px;
 		background-repeat: no-repeat, no-repeat;
 	}
-
-	.home-values{
-		align-items: center;
-		background-image: url(../images/about/gray-bg.png), linear-gradient(to right, #D7DBE1, #D7DBE1);
-		background-size: contain, auto 1200px;
-		background-position: top, 0% 450px;
-		background-repeat: no-repeat, no-repeat;
-	}
-
 
 	.real-home-values .links{
 		padding-left: 0px;
@@ -2169,6 +2248,14 @@ button a{
 		padding-left: 60px;
 		padding-right: 60px;
 	}
+
+	.wrapper {
+		background-image: url(../images/about/gray-bg.png), linear-gradient(bottom, #D7DBE1, #D7DBE1 85%, transparent 85%, transparent 100%);
+		background-image: url(../images/about/gray-bg.png), -webkit-linear-gradient(bottom, #D7DBE1, #D7DBE1 83%, transparent 83%, transparent 100%);
+		background-size: contain, 100%;
+		background-position: top, top;
+		background-repeat: no-repeat, no-repeat;
+	}
 	
 }
 
@@ -2264,11 +2351,17 @@ button a{
 		background-position: top, 0% 320px;
 		background-repeat: no-repeat, no-repeat;
 	}
+
 	.home-values{
-		background-size: contain, auto 1000px;
-		background-position: top, 0% 320px;
+		align-items: center;
+		background-image: url(../images/about/gray-bg.png), linear-gradient(bottom, #D7DBE1, #D7DBE1 50%, transparent 50%, transparent 100%);
+    	background-image: url(../images/about/gray-bg.png), -webkit-linear-gradient(bottom, #D7DBE1, #D7DBE1 65%, transparent 65%, transparent 100%);
+		background-size: contain, 100%;
+		background-position: top, top;
 		background-repeat: no-repeat, no-repeat;
 	}
+
+	
 }
 
 @media only screen and (min-width:320px) and (max-width: 768px){
@@ -2278,20 +2371,15 @@ button a{
 		background-repeat: no-repeat, no-repeat;
 	}
 
-	.home-values{
-		background-size: contain, auto 1000px;
-		background-position: top, 0% 250px;
-		background-repeat: no-repeat, no-repeat;
-	}
-
 	.home-questions {
 		min-width: 60%;
 	}
 
-	.home-landing {
-		padding-left: 30px;
-		padding-right: 30px;
+	.home-landing, .home-content {
+		padding-left: 40px;
+		padding-right: 40px;
 	}
+
 
 	.home-landing-pic{	
 		width: 400px;
@@ -2306,5 +2394,77 @@ button a{
 		width: auto;
 		max-width: 440px;
 	}
+
+	.wrapper {
+		background-image: url(../images/about/gray-bg.png), linear-gradient(bottom, #D7DBE1, #D7DBE1 85%, transparent 85%, transparent 100%);
+		background-image: url(../images/about/gray-bg.png), -webkit-linear-gradient(bottom, #D7DBE1, #D7DBE1 90%, transparent 90%, transparent 100%);
+		background-size: contain, 100%;
+		background-position: top, top;
+		background-repeat: no-repeat, no-repeat;
+	}
 	
 }
+
+@media only screen and (max-width: 620px){
+	.wrapper{
+		align-items: center;
+		background-image: url(../images/about/gray-bg.png), linear-gradient(bottom, #D7DBE1, #D7DBE1 80%, transparent 80%, transparent 100%);
+    	background-image: url(../images/about/gray-bg.png), -webkit-linear-gradient(bottom, #D7DBE1, #D7DBE1 93%, transparent 93%, transparent 100%);
+		background-size: contain, 100%;
+		background-position: top, top;
+		background-repeat: no-repeat, no-repeat;
+	}
+}
+
+
+@media only screen and (max-width: 530px){
+	.wrapper{
+		align-items: center;
+		background-image: url(../images/about/gray-bg.png), linear-gradient(bottom, #D7DBE1, #D7DBE1 80%, transparent 80%, transparent 100%);
+		background-image: url(../images/about/gray-bg.png), -webkit-linear-gradient(bottom, #D7DBE1, #D7DBE1 95%, transparent 95%, transparent 100%);
+		background-size: contain, 100%;
+		background-position: top, top;
+		background-repeat: no-repeat, no-repeat;
+	}
+
+	.real-home-values{
+		align-items: center;
+		background-image: url(../images/homepage/mint-bg.png), linear-gradient(to right, #B0E8DA, #B0E8DA);
+		background-size: contain, auto 1000px;
+		background-position: top, 0% 160px;
+		background-repeat: no-repeat, no-repeat;
+	}
+}
+	
+
+@media only screen and (max-width: 395px){
+	.wrapper{
+		align-items: center;
+		background-image: url(../images/about/gray-bg.png), linear-gradient(bottom, #D7DBE1, #D7DBE1 80%, transparent 80%, transparent 100%);
+		background-image: url(../images/about/gray-bg.png), -webkit-linear-gradient(bottom, #D7DBE1, #D7DBE1 96%, transparent 96%, transparent 100%);
+		background-size: contain, 100%;
+		background-position: top, top;
+		background-repeat: no-repeat, no-repeat;
+	}
+
+	.real-home-values{
+		align-items: center;
+		background-image: url(../images/homepage/mint-bg.png), linear-gradient(to right, #B0E8DA, #B0E8DA);
+		background-size: contain, auto 1000px;
+		background-position: top, 0% 130px;
+		background-repeat: no-repeat, no-repeat;
+	}
+}
+	
+@media only screen and (max-width: 335px){
+	.wrapper{
+		align-items: center;
+		background-image: url(../images/about/gray-bg.png), linear-gradient(bottom, #D7DBE1, #D7DBE1 80%, transparent 80%, transparent 100%);
+		background-image: url(../images/about/gray-bg.png), -webkit-linear-gradient(bottom, #D7DBE1, #D7DBE1 97%, transparent 97%, transparent 100%);
+		background-size: contain, 100%;
+		background-position: top, top;
+		background-repeat: no-repeat, no-repeat;
+	}
+}
+	
+
