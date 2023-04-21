@@ -21,7 +21,7 @@ a{
 	font-size: 64px;
 	line-height: 119%;
 	/* or 76px */
-
+	text-align: center;
 	letter-spacing: -0.01em;
 }
 
@@ -1007,7 +1007,6 @@ button a{
 }
 
 .autism-upper-header img{
-	padding-bottom: 300px;
 	width: 50px;
 }
 
@@ -1023,12 +1022,17 @@ button a{
 }
 
 .autism-video{
-	position: absolute;
-	top: 540px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+	position: relative;
+	margin-top: 50px;
 	align-self: center;
 }
 
 .autism-video img{
+	
 	width: 760px;
 }
 
@@ -1084,13 +1088,16 @@ button a{
 }
 
 .signs-autism-cards{
-	display: flex;
+	/* display: flex;
 	justify-content: space-between;
-	padding-bottom: 160px;
+	padding-bottom: 160px; */
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+	justify-content: center;
 }
 
 .signs-autism-cards img{
-	width: 370px;
+	width: 100%;
 }
 
 
@@ -1727,9 +1734,9 @@ button a{
 }
 
 .contact-form{
-	padding-left: 168px;
+	/* padding-left: 168px; */
 	color: #0F0804;
-	width: 820px;
+	width: 60%;
 	gap: 50px;
 	display: flex;
 	flex-direction: column;
@@ -1757,9 +1764,9 @@ button a{
 
 }
 
-.input-name {
+/* .input-name {
 	margin-right: 20px;
-}
+} */
 
 .personal-section, .project-section{
 	gap: 12px;
@@ -1776,7 +1783,7 @@ button a{
 }
 
 .first-name, .last-name{
-	width: 390px;
+	width: 48%;
 }
 
 .form-bg{
@@ -1802,7 +1809,7 @@ button a{
 
 .contact-all{
 	display: flex;
-	flex-direction: row;
+	justify-content: center;
 	padding-top: 220px;
 }
 
@@ -2202,6 +2209,10 @@ button a{
 	.autism-body, .about-body {
 		padding-left: 40px;
 		padding-right: 40px;
+	}
+
+	.autism-video img{
+		width: 80%;
 	}
 
 	.white-footer{
