@@ -103,6 +103,29 @@ a{
 	cursor: pointer;
 }
 
+.hamburger {
+	display: none;
+	cursor: pointer;
+}
+
+.bar {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all -0.3s ease-in-out;
+	
+}
+
+.bar {
+	background-color: black;
+}
+
+.black-header .bar{
+	background-color: white;
+}
+
 .numbers{
 	font-family: 'Manrope';
 	font-style: normal;
@@ -199,6 +222,7 @@ button a{
 /* header ********************************************/
 
 .header{
+	width: 100%;
 	max-width: 100%;
 	height: auto;
 	background-color: white;
@@ -1055,7 +1079,8 @@ button a{
 }
 
 .cause-risk-pics .asd-infogs {
-	width: 540px;
+	width: auto;
+	max-width: 540px;
 }
 
 .asd-infogs img {
@@ -2083,8 +2108,8 @@ button a{
 	transition: all 0.5s ease;
 	padding-left: 20px;
 } */
-.header, .white-footer {
-	display: none !important;
+.white-footer {
+	display: none;
 }
 
 
@@ -2124,6 +2149,15 @@ button a{
 		background-size: contain; */
 	}
 	
+	
+	.questions-right {
+		width: 100%;
+	}
+
+	.questions-button {
+		width: 100%;
+	}
+
 	.real-home-values .links{
 		padding-left: 0px;
 		width: auto;
@@ -2360,6 +2394,77 @@ button a{
 }
 
 @media only screen and (min-width:320px) and (max-width: 1068px) {
+	.hamburger {
+		display: block;
+	}
+
+	.hamburger.active .bar:nth-child(2) {
+		opacity: 0;
+	}
+
+	.hamburger.active .bar:nth-child(1){
+		transform: translateY(8px) rotate(45deg);
+	}
+
+	.hamburger.active .bar:nth-child(3){
+		transform: translateY(-8px) rotate(-45deg);
+	}
+	.header {
+		position: fixed;
+	}
+	.right-header {
+		position: fixed;
+		left: -100%;
+		top: 80px;
+		gap: 0;
+		flex-direction: column;
+		width: 100%;
+		text-align: center;
+		transition: 0.3s;
+		box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5)
+	}
+
+	.header .right-header {
+		background-color: white;
+	}
+
+	.blue-header .right-header {
+		background-color: #1E4799;
+	}
+
+	.orange-header .right-header {
+		background-color: #FFC482
+	}
+
+	.black-header .right-header {
+		background-color: #000000
+	}
+
+	.blue-header .right-header {
+		background-color: #1E4799;
+	}
+
+	.purple-header .right-header {
+		background-color: #7B25BE;
+	}
+
+	.mint-header .right-header {
+		background-color: #B0E8DA;
+	}
+
+
+
+
+
+	.right-header > div, .right-header > span {
+		margin: 16px 0;
+	}
+
+	.right-header.active {
+		padding-bottom: 20px;
+		left: 0;
+	}
+
 	.autism-body, .about-body {
 		padding-left: 40px;
 		padding-right: 40px;
@@ -2512,6 +2617,9 @@ button a{
 		padding-top: 140px;
 	}
 	
+	.left-header .H3 {
+		display: none;
+	}
 }
 
 
