@@ -763,6 +763,7 @@ button a{
 
 .home-brands .H6{
 	padding-bottom: 50px;
+	text-align: center;
 }
 
 .brands-pics{
@@ -2114,7 +2115,7 @@ button a{
 
 
 @media only screen and (min-width:1700px) {
-	.home-values-card {
+	.home-values-card, .real-home-values .links {
 		padding-left: 260px;
 		padding-right: 260px;
 	}	
@@ -2409,9 +2410,11 @@ button a{
 	.hamburger.active .bar:nth-child(3){
 		transform: translateY(-8px) rotate(-45deg);
 	}
-	.header {
+	
+	.header:has(.right-header.active) {
 		position: fixed;
 	}
+
 	.right-header {
 		position: fixed;
 		left: -100%;
@@ -2665,6 +2668,11 @@ button a{
 		background-position: top, 50% 100%;
 		background-repeat: no-repeat, no-repeat;
 
+	}
+
+	.brands-pics, .brands-pics a, .brands-pics a img{
+		width: auto;
+		max-width: 100%;
 	}
 
 	.neuropals-text{
