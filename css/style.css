@@ -2085,6 +2085,10 @@ button a{
 }
 
 @media only screen and (max-width:1395px) {
+	.header {
+		display: none;
+	}
+	
 	.home-works {
 		flex-direction: column;
 		gap: 50px;
@@ -2199,9 +2203,7 @@ button a{
 		background-position: center;
 	}
 
-	.header {
-		display: none;
-	}
+	
 	.home-landing {
 		gap: 30px;
 	}
