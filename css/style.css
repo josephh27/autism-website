@@ -2685,8 +2685,13 @@ button a{
 	}
 
 	.questions-left .H2 {
-		font-size: 36px;
+		font-size: 31px;
 	}
+
+	.questions-left .bodytext {
+		font-size: 16px;
+	}
+
 
 	.brands-pics, .brands-pics a, .brands-pics a img{
 		width: auto;
