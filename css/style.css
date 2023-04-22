@@ -710,8 +710,12 @@ button a{
 
 
 .home-join{
+	display: flex;
+	flex-direction: column;
 	color: white;
 	padding: 92px 168px;
+
+	
 }
 
 .server-tags-deets-1{
@@ -2552,6 +2556,7 @@ button a{
 		background-position: top, 0% 220px;
 		background-repeat: no-repeat, no-repeat;
 	} */
+	
 	.home-values-card {
 		padding-left: 80px;
 		padding-right: 80px;
@@ -2575,6 +2580,10 @@ button a{
 
 	.home-join {
 		padding: 92px 10px;
+	}
+
+	.home-join .server-tags-deets-1, .home-join .server-tags-deets-2{
+		align-self: center;
 	}
 
 	.cause-risk-pics img{
@@ -2648,6 +2657,11 @@ button a{
 	.home-questions {
 		padding: 53px 20px;
 	}
+
+	.server-tags-deets-1 img, .server-tags-deets-2 img {
+		height: 33px;
+	}
+	
 }
 	
 
@@ -2670,6 +2684,10 @@ button a{
 
 	}
 
+	.questions-left .H2 {
+		font-size: 36px;
+	}
+
 	.brands-pics, .brands-pics a, .brands-pics a img{
 		width: auto;
 		max-width: 100%;
@@ -2687,6 +2705,9 @@ button a{
 		width: 90px;
 	}
 	
+	.server-tags-deets-1 img, .server-tags-deets-2 img {
+		height: 27px;
+	}
 	
 }
 	
