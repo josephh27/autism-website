@@ -347,14 +347,18 @@ button a{
 .home-autism{
 	background-image: url(../images/homepage/orange-wave-bg.png);
 	background-size: cover;
-	width: 100%;
-	height: 100%;
+	max-width: 100%;
+	/* height: 100%; */
 	margin-top: 140px;
 	padding: 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	overflow: hidden;
+}
+
+.home-autism-wrapper {
+	max-width: 100%;
 }
 
 .autism-header{
@@ -371,7 +375,8 @@ button a{
 .autism-header .bodytext{
 	padding-top: 2px;
 	padding-bottom: 56px;
-	width: 431px;
+	width: 40%;
+	
 }
 
 .autism-cards{
@@ -571,7 +576,7 @@ button a{
 
 .real-home-values .H4{
 	display: flex;
-	width: 350px;
+	width: 320px;
 	height: 82px;
 	align-self: center;
 	text-align: center;
@@ -595,7 +600,8 @@ button a{
 .values-card{
 	display: flex;
 	flex-direction: column;
-	width: 360px;
+	width: auto;
+	max-width: 90%;
 	flex-wrap: wrap;
 }
 
@@ -2120,6 +2126,9 @@ button a{
 	
 	.real-home-values .links{
 		padding-left: 0px;
+		width: auto;
+		max-width: 80%;
+		margin: 0 auto;
 	}
 
 	#card-goldilocks{
@@ -2163,8 +2172,8 @@ button a{
 	}
 	.home-questions {
 		flex-direction: column;
-		width: 50%;
-		min-width: 50%;
+		width: auto;
+		max-width: 90%;
 		gap: 20px;
 	}
 
@@ -2295,6 +2304,33 @@ button a{
 		flex-direction: column;
 	}
 
+	.autism-header .H3{
+		margin-right: 0px
+	}
+
+	.autism-header{
+		align-items: flex-start;
+		max-width: 100%;
+	}
+
+	.autism-header .bodytext{
+		padding-top: 2px;
+		padding-bottom: 56px;
+		width: 280px;
+	}
+
+	.learn-more-link .links{
+		width: 287px;
+		max-width: 90%;
+		text-align: center;
+	}
+	
+
+	.learn-more-link {
+		text-align: start;
+	}
+	
+
 	.home-landing {
 		flex-direction: column;
 	}
@@ -2408,6 +2444,10 @@ button a{
 		background-position: top, 0% 220px;
 		background-repeat: no-repeat, no-repeat;
 	} */
+	.home-values-card {
+		padding-left: 80px;
+		padding-right: 80px;
+	}	
 
 	.home-questions {
 		min-width: 60%;
@@ -2488,6 +2528,10 @@ button a{
 		background-position: top, 50% 100%;
 		background-repeat: no-repeat, no-repeat;
 
+	}
+
+	.home-questions {
+		padding: 53px 20px;
 	}
 }
 	
