@@ -2078,7 +2078,7 @@ button a{
 	padding-left: 20px;
 } */
 .header, .white-footer {
-	display: none;
+	display: none !important;
 }
 
 
