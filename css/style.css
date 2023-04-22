@@ -337,7 +337,8 @@ button a{
     justify-content: space-between;
 }
 .home-landing-pic{	
-    width: 500px;
+    width: auto;
+	max-width: 100%;
     /* padding-right: 158px; */
 }
 
@@ -2076,7 +2077,7 @@ button a{
 	transition: all 0.5s ease;
 	padding-left: 20px;
 } */
-.header {
+.header, .white-footer {
 	display: none;
 }
 
@@ -2413,15 +2414,16 @@ button a{
 	}
 
 	.home-landing, .home-content {
-		padding-left: 40px;
-		padding-right: 40px;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 
 
-	.home-landing-pic{	
-		width: 400px;
-		/* padding-right: 158px; */
-	}
+	/* .home-landing-pic{	
+		width: auto;
+		max-width: 400px;
+		padding-right: 158px;
+	} */
 
 	.home-join {
 		padding: 92px 10px;
@@ -2460,6 +2462,12 @@ button a{
 		background-position: top, top;
 		background-repeat: no-repeat, no-repeat;
 	}
+
+	.server-tags-deets-1 img, .server-tags-deets-2 img{
+		max-width: 100%;
+		height: 39px;
+	}
+	
 }
 
 
